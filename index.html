@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Store</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="menu">
+        <nav>
+<label for="check">Pranav </label>
+<input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <ion-icon name="grid-outline"></ion-icon>
+            </label>
+
+            <label class="logo">Food Store</label>
+
+            <ul>
+                <li><a href="#hero-section" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#app">Download App</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Hero Section -->
+    <div class="section flex" id="hero-section">
+        <div class="text">
+            <h1 class="primary">
+                Welcome to My Food Store</span>
+            </h1>
+
+            <p class="tertiary">
+                where we celebrate the joy of cooking and eating delicious food from around the world.
+            </p>
+
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+        <div class="visual">
+            <img src="Images\Image2.png" alt="" />
+        </div>
+    </div>
+    <!-- End Hero Section -->
+
+    <section class="section-meals">
+        <div class="txt">
+            <h1>Our Product</h1>
+        </div>
+        <div class="container grid grid--3-cols margin-right-md">
+            <div class="meal">
+                <img src="https://github.com/erenburuk/html-css-course/blob/1aacbb283eed0f760ab9f905e4ad5099cfa11204/07-Omnifood-Desktop/img/meals/meal-1.jpg?raw=true"
+                    class="meal-img" alt="Japanese Gyozas" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegetarian">Vegetarian</span>
+                    </div>
+                    <p class="meal-title">Japanese Gyozas</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>650</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>74</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.9</strong> rating
+                                (537)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="https://github.com/erenburuk/html-css-course/blob/main/07-Omnifood-Desktop/img/meals/meal-2.jpg?raw=true"
+                    class="meal-img" alt="Avocado Salad" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegan">Vegan</span>
+                        <span class="tag tag--paleo">Paleo</span>
+                    </div>
+                    <p class="meal-title">Avocado Salad</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>400</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>92</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.8</strong> rating
+                                (441)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal">
+                <img src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    class="meal-img" alt="Japanese Gyozas" />
+                <div class="meal-content">
+                    <div class="meal-tags">
+                        <span class="tag tag--vegan">Vegan</span>
+                    </div>
+                    <p class="meal-title">Thai Red Curry</p>
+                    <ul class="meal-attributes">
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>450</strong>
+                                calories</span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>NutriScore &reg;
+                                <strong>86</strong></span>
+                        </li>
+                        <li class="meal-attribute">
+                            <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.4</strong> rating
+                                (349)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- How It Works -->
+    <div class="section" id="how-it-works">
+        <div class="txt">
+            <h1>How It's Work</h1>
+        </div>
+
+        <div class="container flex">
+            <div class="box">
+                <h3>Easy Order</h3>
+                <ion-icon name="timer-outline"></ion-icon>
+                <p>
+                    streamlined and intuitive interface that allows customers to easily navigate menus, 
+                    customize their orders, and check out quickly.
+                </p>
+            </div>
+
+            <div class="box active">
+                <h3>Best Quality</h3>
+                <ion-icon name="timer-outline"></ion-icon>
+                <p>
+                    Consistently source fresh, high-quality ingredients and prioritize meticulous preparation and presentation to ensure the best dining experience for customers
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Fast Delivery</h3>
+                <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                <p>
+                    Optimize logistics and leverage technology to minimize delivery times, ensuring prompt and efficient service to customers.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End How It Works -->
+
+    <!-- About -->
+    <div class="section" id="about">
+        <div class="container flex">
+            <div class="visual">
+                <img src="Images\Image4.png" alt="" />
+            </div>
+            <div class="text">
+                <div class="secondary">About Our Restaurant</div>
+                <h2 class="primary">200+</h2>
+
+                <h3 class="tertiary">Our Delicious Food</h3>
+
+                <p>
+                    Our delicious foods showcase a fusion of flavors crafted with passion and care, ensuring a delightful culinary experience with every bite.
+                </p>
+
+                <a href="#menu" class="btn">Explore Menu</a>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Restaurant Menu -->
+    <div class="section" id="menu">
+        <div class="container-menu">
+            <ul class="category">
+                <li class="active">All</li>
+                <li>Biryani</li>
+                <li>Chicken</li>
+                <li>Pizza</li>
+                <li>Burger</li>
+                <li>Pasta</li>
+            </ul>
+
+            <div class="container">
+                <div class="restaurant-menu">
+                    <div class="menu-item">
+                        <img src="Images\Image5.png"
+                            alt="" />
+
+                        <div class="title">Pizza | Black Olives</div>
+
+                        <div class="location">Chicago Style,Brick Oven Pizza,Italian Pizza,Neapolitan Pizza</div>
+
+                        <div class="order flex">
+                            <div class="price">350 RS</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="Images\burger.png"
+                            alt="" />
+
+                        <div class="title">Barger </div>
+
+                        <div class="location">Lamb Burger,Chicken Burger,Specialty Burger,</div>
+
+                        <div class="order flex">
+                            <div class="price">80 RS</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="Images\french fries.png"
+                            alt="" />
+
+                        <div class="title">french fries</div>
+
+                        <div class="location">Steak Fries,Curly Fries,Shoestring Fries,Waffle Fries</div>
+
+                        <div class="order flex">
+                            <div class="price">138 RS</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="Images\taco.png"
+                            alt="" />
+
+                        <div class="title">Taco</div>
+
+                        <div class="location">Taco de pollo grilled chicken ,Taco de birria slow-cooked goat,
+                        </div>
+
+                        <div class="order flex">
+                            <div class="price">180 RS</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="Images\Donut.png"
+                            alt="" />
+
+                        <div class="title">Donut</div>
+
+                        <div class="location">Glazed,Apple fritter,Long John,Boston cream</div>
+
+                        <div class="order flex">
+                            <div class="price">150 RS</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="Images\Coffee.png"
+                            alt="" />
+
+                        <div class="title">Coffee</div>
+
+                        <div class="location">Banana Milk Coffee,Cappuccino on Ice,Creamy Ice Coffee</div>
+
+                        <div class="order flex">
+                            <div class="price">190 RS</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+                    
+
+                    <div class="menu-item">
+                        <img src="Images\Bubble Milk Tea .png"
+                            alt="" />
+
+                        <div class="title">Bubble Milk Tea </div>
+
+                        <div class="location">taro, mango, coffee, and coconut.</div>
+
+                        <div class="order flex">
+                            <div class="price">205 RS</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="Images\PngItem_2693894.png"
+                            alt="" />
+
+                        <div class="title">lemon juice</div>
+
+                        <div class="location">Eureka Lemons,Lisbon Lemons,Meyer Lemons</div>
+
+                        <div class="order flex">
+                            <div class="price">60 RS</div>
+                            <a href="#" class="btn btn-menu">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Restaurant Menu -->
+
+    <!-- FAQ -->
+    <div class="section" id="faq">
+        <h2 class="secondary">Frequently Asked Questions</h2>
+
+        <div class="faq">
+            <details>
+                <summary>What safety measures do you have in place for food handling and delivery?</summary>
+                <div class="content">
+                    <p>
+                        We adhere to strict food safety guidelines and employ rigorous hygiene practices at every stage of food preparation and delivery. Our delivery drivers follow protocols to maintain food safety during transportation.
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>Are there delivery fees or service charges?</summary>
+                <div class="content">
+                    <p>
+                        Yes, we have a delivery fee of [amount] per order. This fee helps cover the cost of our delivery service and ensures timely delivery of your food.
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>Can I schedule a delivery for a specific time?</summary>
+                <div class="content">
+                    <p>
+                        Yes, you can schedule your delivery for a specific time during our operating hours. Simply select the desired delivery time when placing your order.
+                    </p>
+                </div>
+            </details>
+
+            <details>
+                <summary>Is there a minimum order requirement?</summary>
+                <div class="content">
+                    <p>
+                        Yes, our minimum order requirement is [amount]. This helps us ensure efficient delivery service for all customers.
+                    </p>
+                </div>
+            </details>
+        </div>
+    </div>
+    <!-- End FAQ -->
+
+    <!-- App -->
+    <div class="section" id="app">
+        <div class="container flex">
+            <div class="app-photo">
+                <img width="500px" src="Images\pngegg.png" alt="" />
+            </div>
+
+            <div class="text">
+                <h2 class="secondary">Download The FoodLover App</h2>
+                <p>
+                    A food lover is always looking for a new culinary experience
+                </p>
+
+                <div class="download flex">
+                    <div class="app-store">
+                        <ion-icon name="logo-google-playstore"></ion-icon>
+                        <p>
+                            GET IT ON <br />
+                            <span>Google Play</span>
+                        </p>
+                    </div>
+
+                    <div class="app-store">
+                        <ion-icon name="logo-apple"></ion-icon>
+                        <p>
+                            Donload on the <br />
+                            <span>App Store</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End App -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container flex">
+            <div class="footer-about">
+                <h2>Contact Us </h2>
+                <p>
+                    91+ 1234567890 |Foodstore@gmail.com
+                </p>
+            </div>
+
+            <div class="footer-category">
+                <h2>Our Menu</h2>
+
+                <ul>
+                    <li>Biryani</li>
+                    <li>Chicken</li>
+                    <li>Pizza</li>
+                    <li>Burger</li>
+                    <li>Pasta</li>
+                </ul>
+            </div>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Menu</li>
+                    <li>Order</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+
+            <div class="get-in-touch">
+                <h2>Get in touch</h2>
+                <ul>
+                    <li>Account</li>
+                    <li>Support Center</li>
+                    <li>Feedback</li>
+                    <li>Suggession</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; 2024 Design By Pranav Gorwade</p>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Ion Icons Js -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+</body>
+
+</html>
